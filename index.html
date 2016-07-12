@@ -94,7 +94,8 @@
                                                 <h4 class="subheading">Верстальщик</h4>
                                             </div>
                                             <div class="timeline-body">
-                                                <p>Верстка прикладной <br> и художественной литературы.</p>
+                                                <p>Верстка прикладной
+                                                    <br> и художественной литературы.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -171,7 +172,7 @@
                 <h1 id="projects">Проекты</h1>
                 <hr class="page-header-line">
             </div>
-       <!--      <div class="categories">
+            <!--      <div class="categories">
            <ul class="cat">
                <li>
                    <ol class="type">
@@ -319,10 +320,18 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-12">
+                <div class="col-xs-6 col-sm-6 col-md-6">
                     <p>© Copyright 2016 by Olvia Design.</p>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-12">
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="list-social">
+                        <ul>
+                            <li><a href="https://github.com/olvia" title="github"> <span class="icon icon-github"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/olga-fomichova-6579ab61?trk=hp-identity-name" title="linkedin"><span class="icon icon-linkedin"></span></a></li>
+                            <li><a href="https://vk.com/olvias" title="vkontakte"> <span class="icon icon-vk"></span></a></li>
+                            <!-- <li><a href="#"><span class="icon icon-skype"></span></a></li> -->
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -331,21 +340,18 @@
     <script type="text/javascript" src="assets/js/assets.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-                $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
-                        var form_data = $(this).serialize(); //собераем все данные из формы
-                        $.ajax({
-                                type: "POST", //Метод отправки
-                                url: "assets/php/mail/contact_me.php", //путь до php фаила отправителя
-                                data: form_data,
-                                success: function() {
-                                    alert("Ваше сообщение отпрвлено!");
-                                }
-                            });
-                    });
+        $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
+            var form_data = $(this).serialize(); //собераем все данные из формы
+            $.ajax({
+                type: "POST", //Метод отправки
+                url: "assets/php/mail/contact_me.php", //путь до php фаила отправителя
+                data: form_data,
+                success: function() {
+                    alert("Ваше сообщение отпрвлено!");
+                }
             });
-                       
-          
-
+        });
+    });
     </script>
 </body>
 

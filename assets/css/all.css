@@ -1349,7 +1349,7 @@ mark {
     .header .mainheader .nav li {
       margin-top: 10px; }
       .header .mainheader .nav li:hover {
-        background-color: #ca763d; }
+        background-color: #4f9a8e; }
       .header .mainheader .nav li a {
         display: block;
         text-transform: uppercase;
@@ -1503,49 +1503,17 @@ mark {
 .list-social {
   margin: 0;
   padding: 0;
-  list-style: none;
-  font-size: 0;
-  display: none;
-  margin-right: 20px; }
-  @media screen and (min-width: 480px) {
-    .list-social {
-      display: -webkit-inline-flex;
-      display: -ms-inline-flexbox;
-      display: inline-flex; } }
-  .list-social li a {
-    text-decoration: none;
-    color: #000; }
-  .list-social li + li {
-    margin-left: 16px; }
-  .list-social-sm li + li {
-    margin-left: 12px; }
-  .list-social-footer {
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex; }
-    .list-social-footer li + li {
-      margin-left: 15px; }
-    @media screen and (min-width: 480px) {
-      .list-social-footer {
-        display: none; } }
-
-.list-pay {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap; }
-  .list-pay li a {
-    color: #363636;
-    font-size: 21px; }
-    .list-pay li a:hover {
+  text-align: right; }
+  .list-social > ul > li {
+    margin-right: 20px;
+    display: inline;
+    list-style: none; }
+    .list-social > ul > li > a {
+      color: #fff;
+      font-size: 25px;
       text-decoration: none; }
-  .list-pay li + li {
-    margin-left: 21px; }
+      .list-social > ul > li > a:hover {
+        color: #4f9a8e; }
 
 .rounded {
   counter-reset: li;
@@ -1868,11 +1836,11 @@ fieldset[disabled] a.btn {
   border-color: #000; }
   .btn-brand:hover {
     color: #fff;
-    background-color: #ca763d;
+    background-color: #4f9a8e;
     border-color: #000; }
   .btn-brand:active, .btn-brand.active {
     color: #fff;
-    background-color: #ca763d;
+    background-color: #4f9a8e;
     border-color: #000; }
   .btn-brand.disabled, .btn-brand.disabled:hover, .btn-brand.disabled:focus, .btn-brand.disabled.focus, .btn-brand.disabled:active, .btn-brand.disabled.active, .btn-brand[disabled], .btn-brand[disabled]:hover, .btn-brand[disabled]:focus, .btn-brand[disabled].focus, .btn-brand[disabled]:active, .btn-brand[disabled].active,
   fieldset[disabled] .btn-brand,
