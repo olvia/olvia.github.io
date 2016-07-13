@@ -162,6 +162,7 @@
                     </div>
                 </div>
             </div>
+            <br>
             <a class="btn btn-brand" href="assets/images/resume.jpg" download>Скачать резюме</a>
         </div>
         </div>
@@ -187,7 +188,7 @@
        </div> -->
             <div class="row">
                 <!--      <div class="project-items">  -->
-                <div class="col-sm-12 col-md-3 col-lg-3 book">
+                <div class="col-sm-12 col-md-6 col-lg-3 book">
                     <div class="project-item">
                         <div class="hover-bg">
                             <a href="assets/images/project/01.jpg" title="Project description" rel="prettyPhoto">
@@ -200,7 +201,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 des">
+                <div class="col-sm-12 col-md-6 col-lg-3 des">
                     <div class="project-item">
                         <div class="hover-bg">
                             <a href="assets/images/project/02.jpg" title="..." rel="prettyPhoto">
@@ -213,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 book">
+                <div class="col-sm-12 col-md-6 col-lg-3 book">
                     <div class="project-item">
                         <div class="hover-bg">
                             <a href="assets/images/project/03.jpg" title="..." rel="prettyPhoto">
@@ -226,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 des">
+                <div class="col-sm-12 col-md-6 col-lg-3 des">
                     <div class="project-item">
                         <div class="hover-bg">
                             <a href="assets/images/project/04.jpg" title="..." rel="prettyPhoto">
@@ -239,7 +240,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 des">
+                <div class="col-sm-12 col-md-6 col-lg-3 des">
                     <div class="project-item">
                         <div class="hover-bg">
                             <a href="assets/images/project/05.jpg" title="..." rel="prettyPhoto">
@@ -252,7 +253,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 book">
+                <div class="col-sm-12 col-md-6 col-lg-3 book">
                     <div class="project-item">
                         <div class="hover-bg">
                             <a href="assets/images/project/06.jpg" title="..." rel="prettyPhoto">
@@ -274,9 +275,25 @@
                 <h1 id="contacts">Контакты</h1>
                 <hr class="page-header-line">
             </div>
+            <!--             <form class="form" method="post" action="#">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <input type="text" class="text" name="name" placeholder="Ваше имя" />
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <input type="text" class="text" name="email" placeholder="Ваш Email" />
+        </div>
+    </div>
+    <div class="row">
+        <textarea name="message" placeholder="Введите текст сообщения"></textarea>
+    </div>
+    <input type="submit" class="btn btn-brand" value="Отправить сообщение" />
+        </div>
+        </div>
+        </form> -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <form name="sentMessage" id="form" action="assets/php/mail/contact_me.php" method="post">
+                    <form name="sentMessage" id="form">
                         <div class="form-group">
                             <input type="text" id="name" name="name" class="form-control" placeholder="Ваше имя" required="required">
                             <p class="help-block text-danger"></p>
@@ -322,21 +339,21 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/assets.js"></script>
-<!--     <script type="text/javascript">
-$(document).ready(function() {
-    $("#form").submit(function() { 
-        var form_data = $(this).serialize(); 
-        $.ajax({
-            type: "POST", 
-            url: "assets/php/mail/contact_me.php", 
-            data: form_data,
-            success: function() {
-                alert("Ваше сообщение отпрвлено!");
-            }
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#form").submit(function() { 
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "assets/php/mail/contact_me.php", 
+                data: form_data,
+                success: function() {
+                    alert("Ваше сообщение отпрвлено!");
+                }
+            });
         });
     });
-});
-</script> -->
+    </script>
 </body>
 
 </html>
