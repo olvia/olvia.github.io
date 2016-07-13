@@ -274,25 +274,9 @@
                 <h1 id="contacts">Контакты</h1>
                 <hr class="page-header-line">
             </div>
-            <!--             <form class="form" method="post" action="#">
-    <div class="row">
-        <div class="col-sm-6 col-md-3 col-lg-3">
-            <input type="text" class="text" name="name" placeholder="Ваше имя" />
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-            <input type="text" class="text" name="email" placeholder="Ваш Email" />
-        </div>
-    </div>
-    <div class="row">
-        <textarea name="message" placeholder="Введите текст сообщения"></textarea>
-    </div>
-    <input type="submit" class="btn btn-brand" value="Отправить сообщение" />
-        </div>
-        </div>
-        </form> -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <form name="sentMessage" id="form">
+                    <form name="sentMessage" id="form" action="assets/php/mail/contact_me.php" method="post">
                         <div class="form-group">
                             <input type="text" id="name" name="name" class="form-control" placeholder="Ваше имя" required="required">
                             <p class="help-block text-danger"></p>
@@ -338,21 +322,21 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/assets.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
-            var form_data = $(this).serialize(); //собераем все данные из формы
-            $.ajax({
-                type: "POST", //Метод отправки
-                url: "assets/php/mail/contact_me.php", //путь до php фаила отправителя
-                data: form_data,
-                success: function() {
-                    alert("Ваше сообщение отпрвлено!");
-                }
-            });
+<!--     <script type="text/javascript">
+$(document).ready(function() {
+    $("#form").submit(function() { 
+        var form_data = $(this).serialize(); 
+        $.ajax({
+            type: "POST", 
+            url: "assets/php/mail/contact_me.php", 
+            data: form_data,
+            success: function() {
+                alert("Ваше сообщение отпрвлено!");
+            }
         });
     });
-    </script>
+});
+</script> -->
 </body>
 
 </html>
