@@ -1,0 +1,69 @@
+.social-list {
+   		&-item {
+   		display: inline-block;
+  		text-align: center;
+  		
+  		
+   		
+   		
+   	}
+		&-icon {
+                width: 20px;
+                height: 20px;
+                fill: #fff;
+                margin-top: 5px;
+                
+
+            }
+
+        a {
+            text-decoration: none;
+            
+            }
+
+			
+           		 .twitter {
+                    background-color: #55acee;
+                    border-radius: 50%;
+                    width: 30px;
+       				height: 30px;
+       				vertical-align: middle;       				
+       				
+                }
+                .facebook {
+                    background-color: #3b5998;
+                     border-radius: 50%;
+                    width: 30px;
+       				height: 30px;
+       				vertical-align: middle;
+       				
+                }
+                .instagram {
+                    background-color: #3f729b;
+                     border-radius: 50%;
+                    width: 30px;
+       				height: 30px;
+       				
+                }
+                .dribble {
+                    background-color: #ea4c89;
+                     border-radius: 50%;
+                    width: 30px;
+       				height: 30px;
+       				
+                }
+                .github {
+                    background-color: #333333;
+                   border-radius: 50%;
+                    width: 30px;
+       				height: 30px;
+       				
+                }
+        }
+
+
+.marker-list {
+    list-style-position: inside;
+    list-style-image: url("../images/content/marker.gif");
+    list-style-type: circle;
+}

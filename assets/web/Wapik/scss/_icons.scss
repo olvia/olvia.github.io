@@ -1,0 +1,31 @@
+.icon {
+    width: 30px;
+    height: 30px;
+    fill: #6fb048;
+    float: left;
+    margin-top: 5px;
+    margin-right: 26px;
+    &-big {
+        width: 50px;
+        height: 50px;
+        fill: #6fb048;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &-phone {
+        width: 18px;
+        height: 18px;
+        fill: #bdc8c8;
+        float: left;
+    }
+    &-center {
+        margin-top: 60px;
+        width: 40px;
+        height: 40px;
+        fill: #6fb048; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

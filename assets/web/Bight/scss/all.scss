@@ -1,0 +1,5 @@
+// imports
+@import "custom/custom/variables"; // тут описываем кастомные переменные и новые
+@import "custom/custom/mixins/mixins"; // новые или кастовные миксины
+@import "bootstrap/bootstrap"; // подключаем весь bt (bootstrap)
+@import "custom/custom"; // кастомные компоненты и новые

@@ -1,0 +1,39 @@
+.navbar {
+  position: relative;
+  min-height: 85px;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 36px 36px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 85px;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+
+.navbar-brand > img {
+  display: block;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 10px 15px;
+  list-style: none;
+  border: 1px solid #E5E5E5;
+  background: #f5f5f5;
+}
+
+.navbar-nav > li > a {
+  display: inline;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}

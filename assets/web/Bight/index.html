@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--   <div class="row">
+      <i class="icon fi glyph-icon flaticon-arrows"></i>
+      <span class="icon fi flaticon-arrows-1"></span>
+      <span class="icon fi flaticon-tool-outline-of-hotel-reception-or-covered-food-tray"></span>
+      </div> -->
+    <header>
+        <div class="container">
+            <nav class="navbar" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo">
+                            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Bight organic sportswear"></a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse  navbar-ex1-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown"><a href="#" class="todropdown-ggle" data-toggle="dropdown">Men<span class="icon fi flaticon-down-arrow"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <li class="dropdown-header">TOPS</li>
+                                            <li><a href="#">T-shirts</a></li>
+                                            <li><a href="#">Long sleeves</a></li>
+                                            <li><a href="#">Tank tops</a></li>
+                                            <li><a href="#">Hoodies</a></li>
+                                            <li><a href="#">Jackets</a></li>
+                                            <li><a href="#">Vests</a></li>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <li class="dropdown-header">BOTTOMS</li>
+                                            <li><a href="#">Shorts</a></li>
+                                            <li><a href="#">Paints</a></li>
+                                            <li><a href="#">Underwear</a></li>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="left-dropdown-menu">
+                                                <li><a href="#">Accessories</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">New arrivals</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">On sale</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Gift cards</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Women<span class="icon fi flaticon-down-arrow"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <li class="dropdown-header">TOPS</li>
+                                            <li><a href="#">T-shirts</a></li>
+                                            <li><a href="#">Long sleeves</a></li>
+                                            <li><a href="#">Tank tops</a></li>
+                                            <li><a href="#">Hoodies</a></li>
+                                            <li><a href="#">Jackets</a></li>
+                                            <li><a href="#">Vests</a></li>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <li class="dropdown-header">BOTTOMS</li>
+                                            <li><a href="#">Shorts</a></li>
+                                            <li><a href="#">Paints</a></li>
+                                            <li><a href="#">Underwear</a></li>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="left-dropdown-menu">
+                                                <li><a href="#">Accessories</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">New arrivals</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">On sale</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Gift cards</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Inspiration</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon fi flaticon-magnifying-glass"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                    <div class="search-menu">
+                                        <div class="search-group">
+                                        <span class="icon fi flaticon-magnifying-glass"></span>
+                                        <input type="text" class="form-control" placeholder="Search...">
+                                    </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon fi flaticon-shopping-bag"></span></a>
+                                <ul class="dropdown-menu backet-menu" aria-labelledby="dropdownMenu3">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="image-backet">
+                                                <img src="images/backet-img.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="desc-backet">
+                                                <p>Organic cotton t-shirt, Dhila II – Coral red</p>
+                                                <p>Size: M</p>
+                                                <p>1 x 30$</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="image-backet">
+                                                <img src="images/backet-img.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="desc-backet">
+                                                <p>Organic cotton t-shirt, Dhila II – Coral red</p>
+                                                <p>Size: M</p>
+                                                <p>1 x 30$</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="total-backet">
+                                            <div class="head-backet">Subtotal</div>
+                                            <div class="amount-backet">(3 items) </div>
+                                            <div class="price-backet">90 $ </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="btns-backet">
+                                            <a class="btn btn-brand" href="#" role="button">View shopping bag</a>
+                                            <a class="btn btn-brand" href="#" role="button">Proceed to checkout</a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"> <img src="images/en.jpg" alt="english"> Eng<span class="icon fi flaticon-down-arrow"></span></a>
+                                <ul class="dropdown-menu lang-menu" aria-labelledby="dropdownMenu3">
+                                    <div class="menu">
+                                        <a href="#">English</a>
+                                        <a href="#">Sweden</a>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    </div>
+    <section class="intro">
+        <div class="container">
+            <div class="col-lg-8">
+                <h1>Organic Sportswear</h1>
+                <h2>for Yoga &amp; Sports</h2>
+                <div class="intro-text">
+                    <p>Organic cotton clothing, yoga wear &amp; accessories of the highest quality. Swedish design – Indian manufactured. ALL organic &amp; ethically sourced!</p>
+                </div>
+                <p><a class="btn btn-brand btn-inverse" href="#" role="button">Organic shop</a></p>
+            </div>
+            <div class="col-lg-4">
+                <div class="intro-img">
+                    <img src="images/man.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="desc">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="desc-wrapper">
+                        <span class="icon fi flaticon-shopping"></span>
+                        <h4>Organic Clothing Shop</h4>
+                        <p>Certified organic cotton sports tshirts, yoga pants, ethical underwear, hoodies and more</p>
+                        <a class="btn btn-brand" href="#" role="button">Enter shop!</a>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="desc-wrapper">
+                        <span class="icon fi flaticon-light-bulb"></span>
+                        <h4>Organic Cotton Process</h4>
+                        <p>Birth of organic fabric. From seed to fashion, ethical, fair trade and sustainable fabrics</p>
+                        <a class="btn btn-brand" href="#" role="button">Teach me!</a>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="desc-wrapper">
+                        <span class="icon fi flaticon-earth"></span>
+                        <h4>Why Buy Organic?</h4>
+                        <p>Why organic? Healthy body, mind, wellbeing, and look after the planet. A Mystics perspective.</p>
+                        <a class="btn btn-brand" href="#" role="button">Let's read!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12">
+                            <div class="first-promo">
+                                <div class="first-promo-wrapper">
+                                    <h3>All natural. All yours. Certified Organic.</h3>
+                                    <a class="btn btn-brand" href="#" role="button">Enter shop</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 col-xs-12">
+                            <div class="third-promo">
+                                <div class="third-promo-wrapper">
+                                    <div class="orange-label">
+                                        <p>Hot deals</p>
+                                    </div>
+                                    <h3>Men’s T-shirts</h3>
+                                    <p>The best-selling products of summer 2015 man collection</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 col-xs-12">
+                            <div class="fourth-promo">
+                                <div class="fourth-promo-wrapper">
+                                    <div class="orange-label">
+                                        <p>New</p>
+                                    </div>
+                                    <h3>Women’s fashion</h3>
+                                    <p>New woman collection in our site</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-xs-12">
+                    <div class="second-promo">
+                        <div class="second-promo-wrapper">
+                            <h3>Organic yoga <br> clothing & sportswear</h3>
+                            <p>Welcome to a world full of organic cotton wear. B-LIGHT is a Swedish brand of organic cotton clothing. Here you will find organic cotton clothing for any occasion, yoga, sports & leisure.</p>
+                            <a class="btn btn-brand" href="#" role="button">Inspiration</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <div class="pageheader">
+                <h2>Popular Organic Products</h2>
+            </div>
+            <div class="row">
+                <div class="thumb">
+                    <img src="images/products_photo1.jpg" alt="">
+                    <div class="hover-button">
+                        <a class="btn btn-brand" href="#" role="button">View</a>
+                        <a class="btn btn-brand" href="#" role="button">Add to cart</a>
+                    </div>
+                    <p>Organic cotton long sleeve t-shirt, Batan – Arcadian green</p>
+                    <div class="price">
+                        42&euro;
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/products_photo2.jpg" alt="">
+                    <div class="hover-button">
+                        <a class="btn btn-brand" href="#" role="button">View</a>
+                        <a class="btn btn-brand" href="#" role="button">Add to cart</a>
+                    </div>
+                    <p>Organic cotton long sleeve t-shirt, Batan – Arcadian green</p>
+                    <div class="price">
+                        42&euro;
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/products_photo3.jpg" alt="">
+                    <div class="hover-button">
+                        <a class="btn btn-brand" href="#" role="button">View</a>
+                        <a class="btn btn-brand" href="#" role="button">Add to cart</a>
+                    </div>
+                    <p>Organic cotton long sleeve t-shirt, Batan – Arcadian green</p>
+                    <div class="price">
+                        42&euro;
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/products_photo4.jpg" alt="">
+                    <div class="hover-button">
+                        <a class="btn btn-brand" href="#" role="button">View</a>
+                        <a class="btn btn-brand" href="#" role="button">Add to cart</a>
+                    </div>
+                    <p>Organic cotton long sleeve t-shirt, Batan – Arcadian green</p>
+                    <div class="price">
+                        42&euro;
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/products_photo5.jpg" alt="">
+                    <div class="hover-button">
+                        <a class="btn btn-brand" href="#" role="button">View</a>
+                        <a class="btn btn-brand" href="#" role="button">Add to cart</a>
+                    </div>
+                    <p>Organic cotton long sleeve t-shirt, Batan – Arcadian green</p>
+                    <div class="price">
+                        42&euro;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recent-posts">
+        <div class="container">
+            <div class="pageheader">
+                <h2>Recent Posts</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="post-image-wrapper1">
+                        <div class="post-wrapper">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="date">
+                                        <p>2016-03-04</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="comment">
+                                        <a href="#"><span class="icon fi flaticon-communication"></span> 1 comment</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <a href=""><h4>Why men should or shouldn’t do yoga</h4></a>
+                                    <p>Background to the yoga journey I started practicing yoga 2010 after spending my Thailand vacation... <a href="#">read more +</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-image-wrapper2">
+                        <div class="post-wrapper">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="date">
+                                        <p>2016-03-07</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="comment">
+                                        <a href="#"><span class="icon fi flaticon-communication"></span> 1 comment</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <a href=""><h4>Organic cotton sportswear vs synthetic sportswear</h4></a>
+                                    <p>How to find natural cotton sports clothing online Our opinion is that most people buy their... <a href="#">read more +</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-image-wrapper3">
+                        <div class="post-wrapper">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="date">
+                                        <p>2015-12-31</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="comment">
+                                        <a href="#"><span class="icon fi flaticon-communication"></span> 0 comment</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <a href=""><h4>4 organic colors</h4></a>
+                                    <p>Cotton has been used for 7000 years Did you know that humans been using cotton as clothing for over 7000 years... <a href="#">read more +</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="container">
+            <div class="row">
+                <h3>NEWSLETTER</h3>
+                <p>Subscribe to receive updates on new arrivals, special offers and other discount information.</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Your e-mail">
+                    <span class="input-group-btn"><a class="btn btn-default" type="button">Subscribe
+                    </a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <p>© 2016 B-light. All rights reserved</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <ul class="footer-menu">
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#"> FAQ </a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="social-list">
+                        <ul>
+                            <li><a href="#"><span class="icon fi flaticon-facebook"></span></a></li>
+                            <li><a href="#"><span class="icon fi flaticon-social-media"></span></a></li>
+                            <li><a href="#"><span class="icon fi flaticon-instagram"></span></a></li>
+                            <li><a href="#"><span class="icon fi flaticon-pinterest"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</body>
+
+</html>

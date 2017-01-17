@@ -1,0 +1,196 @@
+// import new and custom components
+
+//  @import "btn.scss"
+// ....
+  
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?h35an');
+    src:    url('fonts/icomoon.eot?h35an#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?h35an') format('truetype'),
+        url('fonts/icomoon.woff?h35an') format('woff'),
+        url('fonts/icomoon.svg?h35an#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.icon-facebook:before {
+    content: "\e901";
+}
+.icon-pencil2:before {
+    content: "\e904";
+}
+.icon-clock:before {
+    content: "\e905";
+}
+.icon-mobile:before {
+    content: "\e906";
+}
+.icon-cogs:before {
+    content: "\e907";
+}
+.icon-twitter:before {
+    content: "\e900";
+}
+.icon-vk:before {
+    content: "\e902";
+}
+.icon-behance:before {
+    content: "\e908";
+}
+.icon-skype:before {
+    content: "\e903";
+}
+.icon-linkedin2:before {
+    content: "\e909";
+}
+
+
+//social-list
+
+.social-list-thumb{ 
+    padding: 20px;
+    margin-right: 50px;
+    margin-top: 50px;
+   
+}
+
+
+.social-list-thumb >ul>li>a{ 
+    color:white;
+    background-color: #3a454d; 
+    list-style-type: none;
+}
+
+
+/* .social-list-thumb:hover{
+    display:none;
+} */
+
+
+
+
+//btns
+
+.btn {
+    color:white;
+    font-size: 10pt;
+    text-transform: uppercase; 
+    border-color: white;
+}
+
+
+.btn:hover{       
+    background-color: #23b7a4;
+    border-color: #23b7a4;
+    color:white;
+}
+.btn:active { 
+ background-color: #23b7a4;
+    border-color: #23b7a4;
+    color:white;
+
+} 
+
+.btn-form{
+    background-color: #23b7a4;
+}
+.btn-form:hover{
+     border-color: white;
+}
+
+/* .btn:focus {
+  outline: 0px;
+} */
+
+
+h3{
+    padding-left: 15px;
+    border-left: 9px solid #e1e6ea;
+    text-transform: uppercase; 
+    margin-bottom: 57px;
+ }
+
+
+//section
+
+.section{
+    padding-top: 83px; 
+    padding-bottom: 60px; 
+}
+.section-color{
+    background-color: #3a454d;  
+    color:white;  
+    padding-top: 83px; 
+    padding-bottom: 60px; 
+
+}
+
+//navbar
+
+.navbar-default {
+  background-color: $navbar;
+
+  }
+ 
+
+ .navbar-nav {
+      > li > a:hover {
+      border: 1px solid white;
+      border-radius: 5px;
+        background: transparent;
+     
+  }
+}
+
+
+//carousel
+.carousel-caption {       
+    text-align: left;
+    max-width: 500px;
+    left: 2%;
+    top: 20%;
+}
+
+.carousel-caption h3{       
+    border-left:0px;
+}
+
+//media-objects
+.media-digits{
+    color: white;
+    background-color: #23b7a4;
+    padding: 10px;
+}
+
+.section-color img{
+    margin-bottom: 30px;
+}

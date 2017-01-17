@@ -1,0 +1,56 @@
+.page-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 97px;
+    margin-bottom: 75px;
+    text-align: center;
+    > h1 {
+        font-size: $font-size-h1;        
+        font-weight: bold;
+        color:#0f5f5c;
+     
+    }
+	
+	> h2 {
+        font-size: $font-size-h2;        
+        font-weight: bold;
+        color:#0f5f5c;   
+    }
+
+
+    >p {
+        font-size: 15px;       
+        margin-top: 24px;
+        
+    }
+    &-green {
+        > h1{
+		color: $brand-color;		    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        }
+        > hr {
+        border: none;
+        background-color: $brand-color;
+        color: $brand-color;       
+        height: 2px;
+        width: 65px;
+       
+    }
+    
+    }
+    > hr {
+        border: none;
+        background-color: $brand-color;
+        color: $brand-color;       
+        height: 2px;
+        width: 65px;
+       
+    }
+
+}
+
+

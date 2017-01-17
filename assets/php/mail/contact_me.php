@@ -1,7 +1,7 @@
 <?
 if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['email'])&&$_POST['email']!="")&&(isset($_POST['message'])&&$_POST['message']!="")){ //Проверка отправилось ли наше поля name и не пустые ли они
         $to = 'for.me.chova@gmail.com'; 
-        $subject = 'Обратный звонок'; 
+        $subject = 'Письмо с сайта'; 
         $message = '
                 <html>
                     <head>
@@ -9,8 +9,8 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['email'])&&$_POST[
                     </head>
                     <body>
                         <p>Имя: '.$_POST['name'].'</p>
-                        <p>Телефон: '.$_POST['email'].'</p>    
-                        <p>Телефон: '.$_POST['message'].'</p>                      
+                        <p>E-mail: '.$_POST['email'].'</p>    
+                        <p>Сообщение: '.$_POST['message'].'</p>                      
                     </body>
                 </html>'; /
         $headers  = "Content-type: text/html; charset=utf-8 \r\n"; 
