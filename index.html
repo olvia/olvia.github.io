@@ -12,24 +12,50 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <header class="header">
         <div class="mainheader">
-            <div class="container">
-                <div class="row row-md-center">
-                    <div class="col-xs-3 col-sm-3 col-md-4">
+            <nav class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <div class="logo">
                             <a href="#"><img src="assets/images/logo.png" alt="olvia design"></a>
                         </div>
-                    </div>
-                    <div class="col-xs-9 col-sm-9 col-md-8">
-                        <nav>
-                            <ul class="nav">
-                                <li><a href="#aboutme" class="page-scroll">ОБО МНЕ</a></li>
-                                <li><a href="#projects" class="page-scroll">ПРОЕКТЫ</a></li>
-                                <li><a href="#contacts" class="page-scroll">КОНТАКТЫ</a></li>
-                            </ul>
-                        </nav>
+                    </div>                 
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                          
+                            <li><a href="#aboutme" class="page-scroll">ОБО МНЕ</a></li>
+                            <li><a href="#projects" class="page-scroll">ПРОЕКТЫ</a></li>
+                            <li><a href="#contacts" class="page-scroll">КОНТАКТЫ</a></li>
+                        </ul>                        
                     </div>
                 </div>
+            </nav>
+            <!--    <div class="container-fluid">
+            <div class="row row-md-center">
+                <div class="col-xs-3 col-sm-3 col-md-4">
+                    <div class="logo">
+                        <a href="#"><img src="assets/images/logo.png" alt="olvia design"></a>
+                    </div>
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-8">
+                    <nav>
+                        <button class="toggle-nav" href="#" onclick="openbox('box'); return false">&#9776;</button>
+                        <ul class="nav  navbar-nav">
+                            <li><a href="#aboutme" class="page-scroll">ОБО МНЕ</a></li>
+                            <li><a href="#projects" class="page-scroll">ПРОЕКТЫ</a></li>
+                            <li><a href="#contacts" class="page-scroll">КОНТАКТЫ</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
+            Navigation
+         
+         </div> -->
         </div>
     </header>
     <section class="block block-intro">
@@ -427,12 +453,12 @@
     <section class="block block-contacts">
         <div class="container">
             <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="page-header">
-                    <h1 id="contacts">Контакты</h1>
-                    <hr class="page-header-line">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="page-header">
+                        <h1 id="contacts">Контакты</h1>
+                        <hr class="page-header-line">
+                    </div>
                 </div>
-            </div>
             </div>
             <!--             <form class="form" method="post" action="#">
     <div class="row">
@@ -450,36 +476,36 @@
         </div>
         </div>
         </form> -->
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                    <form name="sentMessage" id="form">
+            <form name="sentMessage" id="form">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="form-group">
                             <input type="text" id="name" name="name" class="form-control" placeholder="Ваше имя" required="required">
                             <p class="help-block text-danger"></p>
                         </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" class="form-control" placeholder="Ваш Email" required="required">
-                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Ваш Email" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="form-group">
-                        <textarea name="message" id="message" name="message" class="form-control" rows="4" placeholder="Введите текст сообщения" required></textarea>
-                        <p class="help-block text-danger"></p>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <textarea name="message" id="message" name="message" class="form-control" rows="4" placeholder="Введите текст сообщения" required></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div id="success"></div>
-            <button type="submit" class="btn btn-brand">Отправить сообщение</button>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-brand">Отправить сообщение</button>
             </form>
-        </div>
-        </div>
+            </div>
+            </div>
     </section>
     <footer class="footer">
         <div class="container">
@@ -506,21 +532,21 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/assets.js"></script>
-    <!--     <script type="text/javascript">
+<script type="text/javascript">
 $(document).ready(function() {
-    $("#form").submit(function() {
-        var form_data = $(this).serialize();
-        $.ajax({
-            type: "POST",
-            url: "assets/php/mail/contact_me.php",
-            data: form_data,
-            success: function() {
-                alert("Ваше сообщение отпрвлено!");
-            }
-        });
+$("#form").submit(function() {
+    var form_data = $(this).serialize();
+    $.ajax({
+        type: "POST",
+        url: "assets/php/mail/contact_me.php",
+        data: form_data,
+        success: function() {
+            alert("Ваше сообщение отпрвлено!");
+        }
     });
 });
-</script> -->
+});
+</script>
     <!--  <script src="assets/js/jquery.cycle2.js"></script>
   <script src="assets/js/jquery.cycle2.carousel.js"></script> -->
     <script src="assets/js/jquery.cycle2.min.js"></script>
@@ -549,6 +575,16 @@ $(document).ready(function() {
 
         });
     });
+    </script>
+    <script type="text/javascript">
+    function openbox(id) {
+        display = document.getElementById(id).style.display;
+        if (display == 'none') {
+            document.getElementById(id).style.display = 'block';
+        } else {
+            document.getElementById(id).style.display = 'none';
+        }
+    }
     </script>
 </body>
 
